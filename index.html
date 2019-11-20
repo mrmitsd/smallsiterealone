@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--RESET CODE-->
+    <link href="css/reset.css" rel="stylesheet">
+    
+    <link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Barlow:200,300,400,600,600i&display=swap" rel="stylesheet">
+    
+    <link href="https://fontawesome.com/releases/v5.0.0/css/all.css" integrity= i class="fas fa-bars">
+
+</head>
+    
+<body class="index">
+   
+<div class="nocontainer">        
+<img class="mySlides" src="images/Billie_Eilish_NewHomePage7.jpg" width=1450px>
+<img class="mySlides" src="images/Billie_Eilish_NewHomePage6.jpg" width=1450px>
+<img class="mySlides" src="images/Billie_Eilish_NewHomePage5.jpg" width=1450px>    
+<img class="mySlides" src="images/Billie_Eilish_NewHomePage4.jpg" width=1450px>
+  </div>
+    <!-- navbar end -->
+
+    <div class="container">
+    
+    <div class="dropdown">
+  <button class="dropbtn"><i class="fas fa-bars"></i></button>
+  <div class="dropdown-content">
+    <a href="index.html">Home</a>
+    <a href="billie.html">Billie</a>
+    <a href="album.html">Album</a>
+    <a href="tour.html">Tour</a>
+    <a href="interview.html">Interviews</a>
+  </div>
+    </div>
+    <!-- navbar end -->
+    
+    
+    <div class="overlay_text"><h1>BILLIE EILISH</h1></div>
+    
+        
+ 
+   
+    
+        
+    </div> 
+    <!-- end container -->
+    
+    <div class="clear"></div>
+    
+    <div class="grid-container">
+        
+        
+    <div class="grid-item01"> 
+        <a target="_blank" href="billie.html"><div class="overlay_cap">Billie</div>
+        <img class="gridimgs" src="images/Billie_Eilish_NewHomePage7.jpg" width=500px>
+        </a>
+    </div>
+          
+    <div class="grid-item02">
+        <a target="_blank" href="album.html">
+        <div class="overlay_cap">Album</div>
+        <img class="gridimgs" src="images/Billie_Eilish_NewHomePage6.jpg" width=500px>
+        </a>
+        </div>
+    <div class="grid-item03">
+        <a target="_blank" href="tour.html">
+        <div class="overlay_cap">Tour</div>
+        <img class="gridimgs" src="images/Billie_Eilish_NewHomePage5.jpg" width=500px>
+        </a>
+        </div>
+        
+    <div class="grid-item04"> 
+        <a target="_blank" href="interview.html">
+        <div class="overlay_cap">Interviews</div>
+        <img class="gridimgs" src="images/Billie_Eilish_NewHomePage4.jpg" width=500px>
+        </a>    
+        </div>
+        
+    </div>
+    
+
+    
+
+        
+    <script>
+     var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1}
+  x[slideIndex-1].style.display = "block";
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+    
+    </script>
+    
+</body>
+
+
+
+
+
+</html>

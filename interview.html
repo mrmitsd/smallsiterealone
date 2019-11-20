@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <!--RESET CODE-->
+    <link href="css/reset.css" rel="stylesheet">
+    
+    <link href="css/stylesheet.css" rel="stylesheet" type="text/css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Barlow:200,300,400,600,600i&display=swap" rel="stylesheet">
+    
+    <link href="https://fontawesome.com/releases/v5.0.0/css/all.css" i class="fas fa-ellipsis-v">
+
+</head>
+    
+<body class=interview>
+    <div class="container">
+        
+    <div class="dropdown">
+  <button class="dropbtn"><i class="fas fa-ellipsis-v"></i></button>
+  <div class="dropdown-content">
+    <a href="index.html">Home</a>
+    <a href="billie.html">Billie</a>
+    <a href="album.html">Album</a>
+    <a href="tour.html">Tour</a>
+    <a href="interview.html">Interviews</a>
+  </div>
+    </div>
+    </div>
+    <!-- navbar end -->
+    
+<div class="headerinterviewimg">
+<img class="interviewheader" src="images/billie.eilish.logo.interviews.jpg" width=1450px>
+    </div>
+    
+<div class="grid-container">
+        
+        
+    <div class="grid-item01">
+        <video width="800" align="middle" controls>
+  <source src="images/Billie%20Eilish%20Freaks%20Out%20While%20Eating%20Spicy%20Wings%20Hot%20Ones.mp4" type="video/mp4">
+  <source src="mov_bbb.ogg" type="video/ogg">
+</video>
+    </div>
+
+    <div class="grid-item02">
+<video width="800" controls>
+    <source src="images/Billie%20Eilish%20Plays%20With%20Puppies%20While%20Answering%20Fan%20Questions.mp4" type="video/mp4">
+    <source src="mov_bbb.ogg" type="video/ogg">    
+    </video>
+        </div>
+    <div class="grid-item03">
+<video width="800" controls>
+    <source src="images/Billie%20Eilish%20Same%20Interview%20One%20Year%20Apart%20%20Vanity%20Fair.mp4" type="video/mp4">
+    <source src="mov_bbb.ogg" type="video/ogg">
+    </video>
+        </div>
+        
+    <div class="grid-item04"> 
+        <video width="800" controls>
+    <source src="images/This%20Week%20On%20Howard%20Billie%20Eilish,%20Goo%20Goo%20Dolls,%20and%20Tan%20Moms%20Update.mp4" type="video/mp4"> 
+    <source src="mov_bbb.ogg" type="video/ogg">
+    </video>   
+    </div>
+</div>
+    
+    <script>
+     var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1}
+  x[slideIndex-1].style.display = "block";
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+    </script>
+    
+</body>
+
+
+
+
+
+</html>
